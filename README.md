@@ -90,6 +90,13 @@ note:already created superuser:
 username:ramkumar
 paswword:Ramkumar123
 
+5,6,7 Code in projects
+
+8.Ans
+create templates Folder
+inside templetes html file
+settings.py
+templates_dir created
 
 
 
