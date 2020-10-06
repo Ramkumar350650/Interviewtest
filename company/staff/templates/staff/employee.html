@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends 'staff/department.html'%}
+{%block body_block%}
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>All Employee Information</h1><hr>
+	{% for Employee in Employee_list %}
+
+	<ul>
+		<li> <strong>Employee_name</strong>:{{Employee.Employee_name}}</li>
+		<li> <strong>Department</strong>:{{Employee.Department}}</li>
+		<li> <strong>Email</strong>:{{Employee.Email}}</li>
+		<li> <strong>Dateofbirth</strong>:{{Employee.Dateofbirth}}</li>
+		<li> <strong>Picture</strong>:{{Employee.Picture}}</li>
+	</ul>
+	<hr>
+	{%  endfor%}
+	{%endblock%}
+
+</body>
+</html>

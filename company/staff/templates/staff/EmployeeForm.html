@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% extends 'staff/department.html'%}
+{%block body_block%}
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Add new Employee </h1><hr>
+	<form method="post">
+		{{form.as_p}}
+		{%csrf_token%}
+		<input type="submit" class='btn btn-primary btn-lg'name="" value="Insert/Update">
+	</form>
+	{%endblock%}
+
+</body>
+</html>
